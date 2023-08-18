@@ -1,0 +1,12 @@
+{
+    "name": "Damping Factor Calculator",
+    "description": "Experimentally Calculates the Damping Factor",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage","tabs","scripting"],
+    "host_permissions": ["http://*/","https://*/"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page": "options.html"
+}
